@@ -18,5 +18,8 @@ int main() {
 
 	print(to_string(result));
 
+	print("Index of first element - " + to_string(get_first_element(array, length, value)) + '\n');
+	print("Index of first element - " + to_string(get_last_element(array, length, value)) + '\n');
+
 	return 0;
 }
