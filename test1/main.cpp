@@ -5,6 +5,7 @@ int main() {
 
 	int length;
 	int a = -20, b = 20;
+
 	do {
 		cout << "Enter size of array";
 		cin >> length;
@@ -22,4 +23,4 @@ int main() {
 	print("Index of first element - " + to_string(get_last_element(array, length, value)) + '\n');
 
 	return 0;
-}
+} 
